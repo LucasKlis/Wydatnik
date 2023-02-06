@@ -1,12 +1,13 @@
+import React from 'react';
 import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
-import Card from "./Card";
+import Card from "../UI/Card";
 
-function Expenses(props) {
+const Expenses = (props) => {
   const expenses = [
     {
       id: "e1",
-      title: "Toilet Paper",
+      title: "Milka dla Pusi",
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
